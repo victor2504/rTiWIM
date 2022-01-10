@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <script>
+    function funcaovoltar()
+    {
+      window.location.href = "indexdesen.php";
+    }
+    </script>
+    
+    <script type='text/javascript'>
+  window.smartlook||(function(d) {
+    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+    c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+    })(document);
+    smartlook('init', '87e30c5e77c31abd6d3fdefcdf3243ceb9938b62');
+</script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Cadastro de Telas para Validação - rTiWIM </title>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/test.css" rel="stylesheet" />
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icons/favicon-32x180.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/icons/favicon-1616.png" />
+</head>
+
+
+<body class="corpocadusuario">
+<section class="vh-100">
+    <div class="container-fluid h-custom">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-md-9 col-lg-6 col-xl-5">
+          <img src="https://i.ibb.co/BCK93mj/rtiwim.png" class="img-fluid"
+            alt="Sample image" >
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-4 offset-xl-1">
+          <form id = "formcad" action="cad_site.php" method="POST" >
+            
+             
+            <div class="divider d-flex align-items-center my-1">
+             
+              <h3>Cadastro de Telas para Validação</h3>
+            </div>
+  
+            <!-- Nome do Projeto input -->
+            <div class="form-outline mb-4">
+              <input name = "nomeprojeto" type="text" id="form3Example3" class="form-control form-control-lg"
+                placeholder="Digite o nome do projeto" />
+              <label class="form-label" for="form3Example3">Projeto</label>
+            </div>
+  
+            <!-- Nome da Tela input -->
+            <div class="form-outline mb-3">
+              <input name = "nometela" type="text" id="form3Example4" class="form-control form-control-lg"
+                placeholder="Digite o nome da tela" />
+              <label class="form-label" for="form3Example4">Tela</label>
+            </div>
+
+            <!-- Email input -->
+            <div class="form-outline mb-3">
+                <input name = "emailcliente" type="text" id="form3Example4" class="form-control form-control-lg"
+                  placeholder="Digite o email do Cliente" />
+                <label class="form-label" for="form3Example4">Email</label>
+              </div>
+            
+            <!-- link da tela input -->
+            <div class="form-outline mb-3">
+                <input name = "linktela" type="text" id="form3Example4" class="form-control form-control-lg"
+                  placeholder="Forneça o link da tela" />
+                <label class="form-label" for="form3Example4">Link</label>
+              </div>
+            
+            
+  
+            <div class="text-center text-lg-start mt-4 pt-1">
+              <button type="submit" class="btn btn-primary btn-lg"
+                style="padding-left: 2.0rem; padding-right: 2.0rem;">Salvar</button>
+                <button type="button" onclick="funcaovoltar()" class="btn btn-primary btn-lg"
+                style="padding-left: 2.0rem; padding-right: 2.0rem;">Voltar</button>
+            </div>
+
+            
+  
+          </form>
+        </div>
+      </div>
+    </div>
+    
+      <!-- Copyright -->
+  
+      <!-- Right 
+      <div>
+        <a href="#!" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#!" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#!" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="#!" class="text-white">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+      
+    </div>
+    -->
+  </section>
+
+   </body>
+  </html>
